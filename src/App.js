@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     <Sidebar/>
     <Routes >
-      <Route path='/' element={<Home/>} />
+      <Route path='music-app' element={<Home/>} />
       <Route path='playlist' element={<Playlist/>} />
     </Routes>
     <AudioPlayer/>

@@ -23,7 +23,7 @@ const Sidebar = () => {
    </div>
    <section className='sidebar-one'>
     <div className='one-div'>
-    <NavLink to='/' > <img src={home} alt='home' className='sidebar-img img-home' onClick={() => { 
+    <NavLink to='/music-app' > <img src={home} alt='home' className='sidebar-img img-home' onClick={() => { 
     setBackground('home')
       setChart(false)}} /></NavLink>
      <NavLink to='/playlist'> <img src={playlist} alt='home' className='sidebar-img likes-img ' onClick={()=> setBackground('home')} /></NavLink>
