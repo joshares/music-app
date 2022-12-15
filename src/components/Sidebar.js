@@ -37,7 +37,7 @@ const Sidebar = () => {
    </section>
   </aside>
   <aside className={`${sidebar ? 'm-aside' : ' hidden m-aside '}`}>
-    <NavLink to='/' className='side-flex' onClick={() => { 
+    <NavLink to='/music-app' className='side-flex' onClick={() => { 
     setBackground('home')
     setSidebar(false)
       setChart(false)}}>
